@@ -1,14 +1,14 @@
+import './MovieCard.css'
+// import { Link } from 'react-router-dom'
 
-
-
-export default function MovieDetailPage({ movie }){
+export default function MovieCard({ movie }){
 
     return (
         
         <div className="movieDiv">
             < div className="detailsDiv">
                 <h1>{movie.title}</h1>
-                {/* <link to={/movies/:id}>Click to View</link> */}
+               
                 <div className="flex">{movie.cast.map(c => (
                     <p>{c} </p>
                 ))}
@@ -27,4 +27,3 @@ export default function MovieDetailPage({ movie }){
 
     )
 }
-
