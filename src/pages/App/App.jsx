@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 
 import ActorListPage from '../ActorListPage/ActorListPage'
 import LoginPage from '../LoginPage/LoginPage'
-// import MovieDetailPage from '../MovieDetailPage/MovieDetailPage'
+import MovieDetailPage from '../MovieDetailPage/MovieDetailPage'
 import MoviesListPage from '../MoviesListPage/MoviesListPage'
 import NavBar from '../../components/NavBar/NavBar'
 
@@ -18,8 +18,12 @@ export default function App() {
           <NavBar />
           <Routes>
             {/* Route Components in here */}
-            {/* <Route path="/orders/new" element={<NewOrderPage/>}/>
-            <Route path="/orders" element={<OrderHistoryPage/>}/> */}
+            {
+            // <Route path="/" element={<MoviesListPage />}/>
+            // <Route path="/movies/:movieName" element={<MovieDetailPage />}/> 
+            // <Route path="/actors" element={<ActorListPage />}/>
+            
+            }
           </Routes>
         </>
         :
