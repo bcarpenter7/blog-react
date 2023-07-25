@@ -10,6 +10,7 @@ import NavBar from '../../components/NavBar/NavBar'
 
 export default function App() {
   const [user, setUser] = useState(null)
+
   return (
     <main className="App">
       { user ? 
@@ -17,12 +18,12 @@ export default function App() {
           <NavBar />
           <Routes>
             {/* Route Components in here */}
-            <Route path="/orders/new" element={<NewOrderPage/>}/>
-            <Route path="/orders" element={<OrderHistoryPage/>}/>
+            {/* <Route path="/orders/new" element={<NewOrderPage/>}/>
+            <Route path="/orders" element={<OrderHistoryPage/>}/> */}
           </Routes>
         </>
         :
-        <AuthPage />
+        <LoginPage setUser={setUser} user={user}/>
       }
     </main>
   );
