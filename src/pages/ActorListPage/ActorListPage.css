@@ -1,0 +1,29 @@
+.actorDiv {
+    border: 1px solid black;
+    width: 60vmin;
+    margin: 1vmin auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vmin;
+}
+.actorDiv > * {
+    color: white;
+}
+.actorDiv > h1 {
+    margin-left: 2vmin;
+}
+
+.backOne {
+    background-color: gray;
+}
+
+.backTwo {
+    background-color: rgb(154, 153, 153);
+}
+
+.actorDiv > img {
+    width: 20%;
+    margin: 0 auto;
+}

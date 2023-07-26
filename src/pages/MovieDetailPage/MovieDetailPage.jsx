@@ -1,7 +1,8 @@
+import {Link, useLocation } from 'react-router-dom';
 
 
-
-export default function MovieDetailPage({ movie }){
+export default function MovieDetailPage(){
+    const movie = useLocation().state.movie
 
     return (
         

@@ -5,9 +5,9 @@ export default function NavBar(){
 
     return (
         <nav>
-            <Link to="/orders">Order History</Link>
+            <Link to="/actors">Actor List</Link>
             &nbsp; | &nbsp;
-            <Link to="/orders/new">New Order</Link>
+            <Link to="/">Movie List</Link>
         </nav>
     )
 }

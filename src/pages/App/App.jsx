@@ -23,8 +23,9 @@ export default function App() {
               <>
             <Route path="/" element={<MoviesListPage movies={movies} />}/>
             <Route path="/movies/:movieName" element={<MovieDetailPage />}/> 
+            <Route path="/actors" element={<ActorListPage movies={movies} />}/>
             </>
-            // <Route path="/actors" element={<ActorListPage />}/>
+
            
             
             }
